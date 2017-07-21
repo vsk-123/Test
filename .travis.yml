@@ -12,7 +12,6 @@ env:
 
 language: java
 jdk:
-- oraclejdk8
 - oraclejdk7
 script: 
   - javac FirstJavaProgram.java
