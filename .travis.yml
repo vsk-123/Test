@@ -5,7 +5,11 @@
 #- 5.4
 #- hhvm
 #script: phpunit Test.php
+env:
+  - NODE_ENV=production
+  - NODE_ENV=staging
 
+  
 language: java
 jdk: oraclejdk8
 script: 
@@ -18,3 +22,4 @@ after_script: # here's a build step block
   - `pwd`
   - `ls -l`
   - echo "hiii"
+  - echo "Bye"
