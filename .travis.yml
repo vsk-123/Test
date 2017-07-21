@@ -6,6 +6,7 @@
 #- hhvm
 #script: phpunit Test.php
 env:
+  global:
   - NODE_ENV=production
   - NODE_ENV=staging
 
