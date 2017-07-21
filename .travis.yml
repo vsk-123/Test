@@ -9,7 +9,6 @@ env:
   global:
   - name="vishal"
 
-
 language: java
 jdk:
 - oraclejdk7
@@ -25,3 +24,4 @@ after_script: # here's a build step block
   - echo "hiii"
   - echo "Bye"
   - echo $name
+  - java -version
