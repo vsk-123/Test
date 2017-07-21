@@ -13,6 +13,7 @@ language: java
 jdk:
 - oraclejdk7
 script: 
+  - java -version
   - javac FirstJavaProgram.java
   - java FirstJavaProgram
         
