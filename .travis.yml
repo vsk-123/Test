@@ -8,9 +8,11 @@
 
 language: java
 jdk: oraclejdk8
-script: javac FirstJavaProgram.java
+script: 
+  - javac FirstJavaProgram.java
+  - java FirstJavaProgram
         
 after_script: # here's a build step block
-- echo "We can put normal shell commands here"
-- echo "more shell commands here"
-- pwd
+  - echo "We can put normal shell commands here"
+  - echo "more shell commands here"
+  - pwd
